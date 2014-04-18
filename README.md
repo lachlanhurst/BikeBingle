@@ -1,6 +1,6 @@
 ![BikeBingle](./src-java/com/lachlanhurst/public/MainTitle.png)
 
-BikeBingle was a bicycle accident tracking web-site written mid 2008, it continues to be hosted on Google's App Engine engine but recieves little usage. The source code is being posted up in this repository, as open-soruce, in case it is of any use to someone.
+BikeBingle was a bicycle accident tracking web-site written mid 2008, it continues to be hosted on Google's App Engine engine but recieves little usage. The source code is being posted up in this repository as open-soruce, in case it is of  use.
 
 The running site can be found here [bikebingle.appspot.com](http://bikebingle.appspot.com/).
 
