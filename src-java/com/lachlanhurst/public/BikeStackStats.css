@@ -1,0 +1,403 @@
+/** Add css rules here for your application. */
+
+.whiteBackground
+{
+	background-color: #FFFFFF;
+}
+
+.mainBackground 
+{
+background-image:url('logo_250x250.png');
+background-repeat: no-repeat;
+background-position: bottom right;
+}
+
+.titleBackground 
+{
+	/*background-image: url(go-next.png); 
+	background-repeat: repeat;*/
+}
+
+.borderlessFrameForHelpPanel
+{
+	border:none;
+	border-style: none;
+	border-width: 0px;
+	padding: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	overflow: scroll;
+    border-top-style: none;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+
+.htmlTextForDialog
+{
+	text-align: justify;
+	font-family: serif;
+	
+}
+
+.adsenseDiv
+{
+	border:none;
+	border-style: none;
+	border-width: 0px;
+	padding: 0px;
+	overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-top-style: none;
+    width: 234px;
+    height: 60px;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: transparent;
+}
+
+/**.gwt-Frame
+{
+	border:none;
+	border-style: none;
+	border-width: 0px;
+	background-color: blue;
+	padding: 0px;
+	overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    vertical-align: middle;
+    border-top-style: none;
+}**/
+
+.borderlessFrame
+{
+	border:none;
+	border-style: none;
+	border-width: 0px;
+	padding: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    border-top-style: none;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    vertical-align: middle;
+    background-color: transparent;
+    /*FILTER: chroma(color=#FFFFFF);*/
+}
+
+.injurySeverity-outer
+{
+	border:thin;
+	background-color: window;
+	border-color: #d3def6;
+	border-width: 2px;
+	text-align: center;
+	vertical-align: middle;
+	border-style: solid;
+}
+
+.injurySeverity-inner
+{
+	background-color:#FF9999;
+	background-position: left;
+	text-align: left;
+	border:none;
+	vertical-align: middle;
+}
+
+.noScroll
+{
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+/** View stacks styling **/
+.viewStacksPanel-SubHeading 
+{
+font-weight: bold;
+font-size: 1.0em;
+padding-top: 4px;
+}
+
+.dial
+{
+z-index: 10;
+}
+
+.infoWindow-Heading 
+{
+font-weight: bold;
+font-size: 1.0em;
+}
+
+.infoWindow-Description 
+{
+font-size: 0.8em;
+}
+
+/** Add stack styling **/
+.addStackPanel-SubHeading 
+{
+font-weight: bold;
+font-size: 1.0em;
+padding-top: 4px;
+}
+
+.addStackPanel-TypeDescription 
+{
+font-size: 0.8em;
+}
+
+.addStackPanel-Link 
+{
+font-size: 1.0em;
+font-family: monospace;
+overflow: hidden;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+.addStackPanel-InnerPanel
+{
+padding-left: 4px;
+padding-right: 4px;
+}
+
+.addStackPanel-ValidationLabelGood
+{
+color:green;
+font-weight: normal;
+}
+
+.addStackPanel-ValidationLabelBad
+{
+color:red;
+font-weight: bold;
+}
+
+.addStackPanel-DescriptionTextBox
+{
+border:thin;
+border-color:aqua;
+overflow:hidden;
+font-family: Arial;
+}
+
+.addStackPanel-Button
+{
+border:medium;
+background-color: #E4F0FF;
+border-color: #d3def6;
+border-width: 4px;
+text-align: center;
+vertical-align: middle;
+border-style: solid;
+}
+
+.buttonNoBorder
+{
+background-color: window;
+border:none;
+text-align: center;
+vertical-align: middle;
+}
+
+/**
+Date picker styles, most of these will eventually move into a default resource bundle.
+*/
+.gwt-DatePicker {
+  width: 150px;
+  border: 1px solid #f1f1f1;
+  border-bottom: 2px solid #f1f1f1;
+  color: 6b6b6b;
+  cursor: default;
+ 
+}
+
+.gwt-DatePicker td {
+  font-family: Arial;
+  font-size: 65%;
+  padding: 2px;
+  text-align: center;
+  padding: 2px;
+  outline: none;
+  -moz-outline: none;
+  cursor: default;
+}
+
+.gwt-DatePicker td,.month-selector td :focus {
+  outline: none
+}
+
+.gwt-DateBox input {
+  width: 8em;
+}
+
+/**
+Calendar styles
+*/
+.calendar-view {
+  background-color: white;
+  width: 100%;
+}
+
+.calendar-view .filler-cell {
+  color: #bfbfbf;
+  padding: 1px;
+  cursor: hand;
+}
+
+.calendar-view .date-cell {
+  padding: 1px;
+  cursor:hand;
+}
+
+.calendar-view .selected-cell {
+  background: #aaccee;
+}
+
+.calendar-view .day-title {
+  background: #dbe6de;
+}
+
+.gwt-DatePicker .calendar-view .highlighted-cell {
+  border: 1px solid #eeeeee;
+  padding: 0px;
+}
+
+.calendar-view .today-cell {
+  border: 1px solid black;
+  padding: 0px;
+}
+
+.gwt-DatePicker .calendar-view .weekend {
+  background: #f1f1f1;
+}
+
+.calendar-view .disabled-cell {
+  color: graytext;
+}
+
+/*
+Month selector styles
+*/
+.month-selector {
+  background: #dbe6de;
+  width: 100%;
+  text-align: center;
+}
+
+.month-selector td {
+  font-weight: bold;
+  font-size: 70%;
+}
+
+.month-selector .month-label {
+  text-align: center;
+  background: #dbe6de;
+}
+
+.month-selector .month-backward {
+  padding-right: 2em;
+}
+
+.month-selector .month-forward {
+  padding-left: 2em;
+}
+
+/****************************
+helper styles
+******************************/
+
+/*  Styles demo*/
+.gwt-DatePicker .red-date {
+  background-color: red;
+}
+
+.gwt-DatePicker .blue-background {
+  background-color: blue;
+}
+
+.gwt-DatePicker .red-text {
+  color: red;
+}
+
+.gwt-DatePicker .green-border {
+  border: 5px solid green;
+}
+
+.gwt-DatePicker .big-text {
+  font-size: x-large;
+}
+
+.gwt-DatePicker .underlined-and-bold-text {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.gwt-DatePicker .yellow-background {
+  background-color: yellow;
+}
+
+/* date range styles */
+.filler {
+  width: 30px;
+  text-align: center;
+}
+
+.gwt-SliderBar-shell {
+  height: 34pt;
+  width: 50%;
+}
+.gwt-SliderBar-shell .gwt-SliderBar-line {
+  border: 1px solid black;
+  background-color: white;
+  height: 4px;
+  width: 95%;
+  top: 22pt;
+  overflow: hidden;
+}
+.gwt-SliderBar-shell .gwt-SliderBar-knob {
+  top: 14pt;
+  width: 11px;
+  height: 21px;
+  z-index: 1;
+  cursor: pointer;
+}
+.gwt-SliderBar-shell .gwt-SliderBar-tick {
+  top: 12pt;
+  width: 1px;
+  height: 8pt;
+  background: black;
+  overflow: hidden;
+}
+.gwt-SliderBar-shell .gwt-SliderBar-label {
+  top: 2pt;
+  font-size: 8pt;
+  cursor: default;
+}
+.gwt-SliderBar-shell-focused {
+}
+.gwt-SliderBar-shell .gwt-SliderBar-line-sliding {
+  background-color: #DDDDDD;
+  cursor: pointer;
+}

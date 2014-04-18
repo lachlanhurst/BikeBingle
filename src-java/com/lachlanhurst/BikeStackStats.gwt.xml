@@ -1,0 +1,40 @@
+<module>
+
+      <!-- Inherit the core Web Toolkit stuff.                        -->
+      <inherits name='com.google.gwt.user.User'/>
+	
+      <!-- Inherit the default GWT style sheet.  You can change       -->
+      <!-- the theme of your GWT application by uncommenting          -->
+      <!-- any one of the following lines.                            -->
+      <inherits name='com.google.gwt.user.theme.standard.Standard'/> 
+      <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+      <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+
+      <!-- Other module inherits                                      -->
+      <!-- Google maps inherits                                       -->
+      <inherits name="com.google.gwt.maps.GoogleMaps" />
+      <inherits name="com.google.gwt.widgetideas.DatePicker" />
+      <inherits name="com.google.gwt.http.HTTP"/>
+      <inherits name="com.google.gwt.json.JSON"/>
+
+
+      <!--
+        If you want to deploy this application outside of localhost,
+        you must obtain a Google Maps API key at:
+        http://www.google.com/apis/maps/signup.html
+        Replace the src attribute below with a URL that contains your key.
+      -->
+      <!-- the key for bikebingle has been added -->
+      <!-- its good for http://bikebingle.appspot.com/ -->
+      <script src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;v=2.x&amp;key=ABQIAAAAsJIZTUzqmUlxQVby7eipuBTkhP5uvD00hwld5KgKWPBzIj8o_xTUFZCZDoYmjpCLul2QOGJbbbL0dg" />
+
+      <!-- You can run under localhost without a key -->
+      <!-- <script src="http://maps.google.com/maps?gwt=1&amp;file=api&amp;v=2.x" /> -->
+
+      <!-- Specify the app entry point class.                         -->
+      <entry-point class='com.lachlanhurst.client.BikeStackStats'/>
+    
+      <!-- Specify the application specific style sheet.              -->
+      <stylesheet src='BikeStackStats.css' />
+	
+</module>

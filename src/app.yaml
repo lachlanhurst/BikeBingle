@@ -1,0 +1,45 @@
+application: bikebingle
+version: 3
+runtime: python
+api_version: 1
+
+handlers:
+
+- url: /server/.*
+  script: ServerMain.py
+
+- url: /login/.*
+  script: ServerMain.py
+  
+- url: /logout/.*
+  script: ServerMain.py
+  
+- url: /user/.*
+  script: ServerMain.py
+
+- url: /getbingles/.*
+  script: ServerMain.py
+
+- url: /getlatestbingles/.*
+  script: ServerMain.py
+
+- url: /addbingle/.*
+  script: ServerMain.py
+
+- url: /deletebingle/.*
+  script: ServerMain.py
+
+- url: /getbinglecount/.*
+  script: ServerMain.py
+
+- url: /cleanup/.*
+  script: ServerMain.py
+
+- url: /
+  static_files: gwt/BikeStackStats.html
+  upload: gwt/BikeStackStats.html
+  
+- url: /(.*)
+  static_files: gwt/\1
+  upload: gwt/(.*)
+  

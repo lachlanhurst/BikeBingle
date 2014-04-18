@@ -1,0 +1,25 @@
+
+.h3Headings
+{
+	text-align: justify; 
+	font-family: sans-serif;
+	color: #95B0EA;
+	margin-bottom:2px;
+}
+
+.boldHeadings
+{
+	text-align: justify; 
+	font-family: sans-serif;
+	color: #95B0EA;
+}
+
+.paragraphs 
+{
+	margin-top:2px;
+    text-align: justify;
+    font-family: sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 0px;
+}

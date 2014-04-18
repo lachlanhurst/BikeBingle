@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+    <HEAD>
+        <LINK href="documentation.css" rel="stylesheet" type="text/css" />
+    </HEAD>
+
+<body>
+
+<div id="FAQ_all" class="htmlTextForDialog">
+
+	<div id="FAQ_name">
+    <b class="boldHeadings">
+       Why the name, BikeBingle?
+    </b>
+    <p class="paragraphs">
+       Well the 'Bike' is obviously short for Bicycle. Depending on
+       where you originate the 'Bingle' reference may be slightly more obscure,
+       bingle is Australian slang for for an accident/collision/crash. Sorry if
+       you thought this web app was a merging of Cycling and Baseball (bingle
+       also refers to a base hit, whatever that is ;-) ).
+    </p>
+    </div>
+
+    <div id="FAQ_reportToOfficial">
+    <b class="boldHeadings">
+       Is BikeBingle an official means of reporting accidents?
+    </b>
+    <p class="paragraphs">
+       <b>No</b>.  I can't stress this enough, BikeBingle is not intended to be a
+       an official reporting mechanism.  Please be sure to notify the relevant authorities
+       in the event of any accident.
+    </p>
+    </div>
+
+    <div id="FAQ_canLink">
+    <b class="boldHeadings">
+       Can I reference a specific accident directly?
+    </b>
+    <p class="paragraphs">
+       Yes. just click the map icon of the accident you wish to reference and the popup 
+       information window for this accident will be displayed.  In this window copy the 
+       link from the 'BikeBingle link' text field.  This URL allows you to reference this
+       accident directly from any website. 
+    </p>
+    </div>
+
+    <div id="FAQ_whichAccidentType">
+    <b class="boldHeadings">
+       I rode over a pothole that snapped my forks in two causing me to fly over the
+       bars into a nearby pedestrian. So which accident type do I select?
+    </b>
+    <p class="paragraphs">
+       It's subjective and I'll leave it up to your best judgement as to what was the
+       most contributing factor to the accident.  In this example I'd say the accident
+       was caused by the large pothole, and thats what you should select.  The forks
+       failing and the crashing into the unfortunate pedestrian are merely consequences
+       of hitting the pothole.
+    </p>
+    <p class="paragraphs">
+       Other incidents may not be so clear cut, if you feel that your accident cannot
+       be catagorised into any of the types select 'Other' and enter a description of 
+       what happened.  In fact it would be great if you left a description of the 
+       incident even if you did find an appropriate type.
+    </p>
+    </div>
+
+
+    <div id="FAQ_wrongSideOfRoad">
+    <b class="boldHeadings">
+       Why do some of the BikeBingle accident type images show the cyclist/vehicles 
+       on the wrong side of the road?
+    </b>
+    <p class="paragraphs">
+       Once again you'll have to make allowances for us Australian's, we drive on
+       the left hand side of the road.  When selecting a relevant accident type please
+       try to interpret the figure taking this into consideration.  I've attempted to
+       generate type names and descriptions that are not specific to the side of the
+       road that is driven on.
+    </p>
+    </div>
+
+    <div id="FAQ_whyGoogleLogin">
+    <b class="boldHeadings">
+       Why do I need to use my Google login to add data?
+    </b>
+    <p class="paragraphs">
+       Google make it very easy to incorporate their login mechanism into applications
+       built on the Google App Engine framework (BikeBingle is built on App Engine).  This
+       reduces the amount of development work required and also saves you from needing to
+       create a new login for every web app out there.
+    </p>
+    <p class="paragraphs">
+       The only information that BikeBingle obtains from the Google login is the users 
+       email/Google id.  Google does not, for obvious reasons, provide the password to
+       any application built using App Engine.
+    </p>
+    </div>
+
+    <div id="FAQ_whatAreUserDetailsFor">
+    <b class="boldHeadings">
+       What is my user login used for?
+    </b>
+    <p class="paragraphs">
+       You login id is stored in the BikeBingle database along with the other data you
+       provide via the 'Add' interface.  This enables users to manage the data they 
+       provide to BikeBingle.  Should you delete all your data from BikeBingle, no 
+       references to your user will be maintained.  BikeBingle will never use your 
+       email address to contact you for any purpose.
+    </p>
+    </div>
+
+    <div id="FAQ_whyArePlusesShown">
+    <b class="boldHeadings">
+       Why are only '+' icons displayed when I zoom out? 
+    </b>
+    <p class="paragraphs">
+       This functionality was implemented to enhance scalability.  During testing it was discovered that 
+       the maximum number of icons that could be displayed at any one time was around the 400 mark. 
+       Obviously this number would be exceeded if the user choose to zoom out to an extent covering the 
+       entire world.  The simple solution would have been to stop displaying points when the user zoomed
+       out too far, but I really wanted to see all points from around the world.  In order to keep the 
+       number of displayed points to a minimum and allow the user to see points when zoomed out, different
+       levels of detail are displayed.  The further the user zooms out the courser the results returned 
+       are, so instead of displaying 50 icons on top of each other one '+' icon is displayed to indicate
+       the group.   
+    </p>
+    <p class="paragraphs">
+       If you wish to see the bingles that make up one of the '+' icons, simply zoom in on that location.  
+    </p>
+    </div>
+
+    <div id="FAQ_blockingPopups">
+    <b class="boldHeadings">
+       Why does nothing happen when I click on the 'Related link' buttons?
+    </b>
+    <p class="paragraphs">
+       Most likely your blocking popups, BikeBingle attempts to open a new browser 
+       window with the related link.  Adding an exclusion for BikeBingle will prevent
+       this from happening in future.
+    </p>
+    </div>
+
+    <a rel="license" href="http://creativecommons.org/licenses/by/2.5/au/">
+        <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/2.5/au/88x31.png" />
+    </a>
+    <br />
+    <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" property="dc:title" rel="dc:type">BikeBingle FAQ</span> 
+    by 
+    <a xmlns:cc="http://creativecommons.org/ns#" href="http://bikebingle.appspot.com/" property="cc:attributionName" rel="cc:attributionURL">Lachlan Hurst</a> 
+    is licensed under a 
+    <a rel="license" href="http://creativecommons.org/licenses/by/2.5/au/">Creative Commons Attribution 2.5 Australia License</a>.
+
+</div>
+</body>
+</html>
